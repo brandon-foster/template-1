@@ -1,0 +1,79 @@
+/*******Google Fonts*****/
+h1.lobster-font {
+	font-family: 'Lobster', cursive;
+	font-size: 68px;
+	padding-top: 10px;
+        color: #383838;
+}
+
+h2.lobster-font {
+	font-family: 'Lobster', cursive;
+	font-size: 48px;
+	padding-top: 10px;
+        color: #383838;
+}
+
+/***********************/
+
+body {
+    background-image: url('../img/background/skulls.png');
+    font-family: arial, sans-serif;
+    font-size: 22px;
+    color: #3b3b3b;
+    margin: 0;
+    padding: 0;
+}
+
+#top-bar {
+    margin-top: -20px;
+    margin-bottom: -40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1050px;
+}
+
+#nav-wrapper {
+    border: 1px solid #343E31;
+    border-width: 8px 0;
+    background-color: rgba(235, 235, 235, 0.5);
+    height: 70px;
+}
+
+#nav {
+    font-family: Nova Mono;
+    font-weight: bolder;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#nav:first-child {
+    margin-left: 50px;
+}
+
+#nav a:active,
+#nav a:visited,
+#nav a:link {
+    color: #383838;
+}
+
+#nav a:hover {
+    border-bottom: 6px solid #383838;
+}
+
+#main {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 15px;
+    height: 600px;
+    width: 1200px;
+}
+
