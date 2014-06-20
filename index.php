@@ -11,8 +11,27 @@
         <?php include"includes/nav-include.php"?>
         
         <div id="main">
-        	<?php include 'includes/content/main-home.txt'; ?>
-        </div>
+
+			<div class="content-left-wrapper">
+
+				<div class="content-left">
+					<p><?php include"includes/content/main-home.txt"; ?></p>
+				</div>
+
+			</div>
+
+			<div class="content-right-wrapper">
+				<div class="content-right">
+					<ul class="button-list">
+						<li class="btn">LinkedIn</li>
+						<li class="btn">GitHub</li>
+						<li class="btn">Facebook</li>
+						<li class="btn">Twitter</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
 	</div>
 
 	<!-- jQuery -->
