@@ -6,7 +6,6 @@
 	background-size: cover;
 	height: 100%;
 } */
-
 #feedback-page {
 	text-align: center;
 }
@@ -15,6 +14,28 @@
 	width: 100%;
 	float: left;
 	padding-top: 0px;
+}
+
+/* hidden until message is submitted */
+#submission-alert {
+	display: none;
+	margin-top: 60px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #fff;
+	padding: 2px 20px;
+	border-radius: 3px;
+	margin-right: auto;
+}
+
+.submission-success {
+	background: #34d968;
+}
+
+.submission-failure {
+	background: #f08843;
 }
 
 #form-div {
@@ -81,21 +102,21 @@
 	background-repeat: no-repeat;
 }
 
-#email-from {
+#emailFrom {
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
-#email-from:focus {
+#emailFrom:focus {
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
-#comment {
+#message {
 	background-image:
 		url(http://rexkirby.com/kirbyandson/images/comment.svg);
 	background-size: 30px 30px;

@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 function spamcheck($field) {
 	// Sanitize e-mail address
@@ -11,42 +9,35 @@ function spamcheck($field) {
 		return FALSE;
 	}
 }
-?>
 
-<h2>Feedback Form</h2>
-<?php
 // display form if user has not clicked submit
 if (! isset ( $_POST ["submit"] )) {
-	?>
-	<p>SUBMIT WAS NOT SET</p>
-	<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-		From: <input type="text" name="email-from"><br>
-		Name: <input type="text" name="name"><br>
-		Subject: <input type="text" name="subject"><br>
-		Message: <textarea rows="10" cols="40" name="message"></textarea><br>
-		<input type="submit" name="submit" value="Submit Feedback">
-	</form>
-  <?php
+	echo "submit was not sent";
 } else { // the user has submitted the form
          // Check if the "from" input field is filled out
-	if (isset ( $_POST ["email-from"] )) {
+	if (isset ( $_POST ["emailFrom"] )) {
 		// Check if "from" email address is valid
-		$mailcheck = spamcheck ( $_POST ["email-from"] );
+		$mailcheck = spamcheck ( $_POST ["emailFrom"] );
 		if ($mailcheck == FALSE) {
-			echo "Invalid input";
+			echo json_encode ( array (
+					"success" => FALSE,
+					"result_message" => "Please fix your email address." 
+			) );
 		} else {
-			$from = $_POST ["email-from"]; // sender email address
-			$name = $_POST["name"];
+			$from = $_POST ["emailFrom"]; // sender email address
+			$name = $_POST ["name"];
 			$subject = "Message from {$name}, a visitor to your web site";
 			$message = $_POST ["message"];
 			// message lines should not exceed 70 characters (PHP rule), so wrap it
 			$message = wordwrap ( $message, 70 );
 			// send mail
 			mail ( "brandonfosterjunkmail@gmail.com", $subject, $message, "From: $from\n" );
-			echo $_SERVER["PHP_SELF"];
+			
+			echo json_encode ( array (
+					"success" => TRUE,
+					"result_message" => "Thank you, your message has been sent." 
+			) );
 		}
 	}
 }
 ?>
-</body>
-</html>

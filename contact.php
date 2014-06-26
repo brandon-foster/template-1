@@ -12,40 +12,39 @@
         
         <?php include"includes/nav-include.php"?>
         
-        <div id="main">
-			<form action="processing/process-email.php" method="post">
-				<div id="form-main">
-					<div id="form-div">
-						<form class="form" id="form1">
+        <div id="submission-alert"></div>
 
-							<p class="name">
-								<input name="name" type="text"
-									class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
-									placeholder="Name" id="name" />
-							</p>
+		<div id="main">
+			<div id="form-main">
+				<div id="form-div">
+					<form class="form" id="form1">
 
-							<p class="email-from">
-								<input name="email-from" type="text"
-									class="validate[required,custom[email-from]] feedback-input"
-									id="email-from" placeholder="Email" />
-							</p>
+						<p class="name">
+							<input type="text"
+								class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+								placeholder="Name" id="name" />
+						</p>
 
-							<p class="text">
-								<textarea name="message"
-									class="validate[required,length[6,300]] feedback-input"
-									id="comment" placeholder="Comment"></textarea>
-							</p>
+						<p class="emailFrom">
+							<input type="text"
+								class="validate[required,custom[email-from]] feedback-input"
+								id="emailFrom" placeholder="Email" />
+						</p>
+
+						<p class="text">
+							<textarea class="validate[required,length[6,300]] feedback-input"
+								id="message" placeholder="Comment"></textarea>
+						</p>
 
 
-							<div class="submit">
-								<input type="submit" name="submit" value="SEND" id="button-blue" />
-								<div class="ease"></div>
-							</div>
-						</form>
-					</div>
-
+						<div class="submit">
+							<input type="submit" value="SEND" id="button-blue" />
+							<div class="ease"></div>
+						</div>
+					</form>
 				</div>
-			</form>
+			</div>
+
 		</div>
 
 		<!-- jQuery -->
