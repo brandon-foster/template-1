@@ -35,14 +35,15 @@ if (! isset ( $_POST ["submit"] )) {
 		if ($mailcheck == FALSE) {
 			echo "Invalid input";
 		} else {
-			$from = $_POST ["email-from"]; // sender
-			$subject = "Message from a visitor to your web site";
+			$from = $_POST ["email-from"]; // sender email address
+			$name = $_POST["name"];
+			$subject = "Message from {$name}, a visitor to your web site";
 			$message = $_POST ["message"];
 			// message lines should not exceed 70 characters (PHP rule), so wrap it
 			$message = wordwrap ( $message, 70 );
 			// send mail
 			mail ( "brandonfosterjunkmail@gmail.com", $subject, $message, "From: $from\n" );
-			echo "Thank you for sending us feedback";
+			echo $_SERVER["PHP_SELF"];
 		}
 	}
 }
