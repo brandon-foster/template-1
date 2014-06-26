@@ -23,7 +23,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 22px;
-	font-family: proxima-nova, sans-serif;
 }
 
 #top-bar {
@@ -42,8 +41,7 @@ body {
 }
 
 #custom-nav {
-	font-family: Nova Mono;
-	font-weight: bolder;
+/* 	font-weight: bolder; */
 }
 
 #custom-nav li {
