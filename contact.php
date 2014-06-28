@@ -1,7 +1,9 @@
-
-<html>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include"includes/links-include.php"?>
     <link rel="stylesheet" type="text/css" href="css/contact.css" />
 <title>Contact &middot; Portfolio</title>
@@ -47,10 +49,16 @@
 
 		</div>
 
-		<!-- jQuery -->
-		<script type="text/javascript"
-			src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script type="text/javascript" src="js/contact.js""></script>
+	</div>
+
+
+	<!-- scripts here -->
+	<script src="foundation/js/vendor/jquery.js"></script>
+	<script src="foundation/js/vendor/fastclick.js"></script>
+	<script src="foundation/js/foundation.min.js"></script>
+	<script> $(document).foundation(); </script>
+
+	<script type="text/javascript" src="js/contact.js""></script>
 
 </body>
 </html>

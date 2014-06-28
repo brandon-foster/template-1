@@ -1,42 +1,36 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include"includes/links-include.php"?>
     <title>Portfolio</title>
 </head>
 <body>
-	<div id="container">
+
         <?php include"includes/top-bar-include.php"?>
         
         <?php include"includes/nav-include.php"?>
         
-        <div id="main">
-
-			<div class="content-left-wrapper">
-
-				<div class="content-left">
-					<p><?php include"includes/content/main-home.txt"; ?></p>
-				</div>
-
-			</div>
-
-			<div class="content-right-wrapper">
-				<div class="content-right">
-					<ul class="button-list">
-						<li class="btn">LinkedIn</li>
-						<li class="btn">GitHub</li>
-						<li class="btn">Facebook</li>
-						<li class="btn">Twitter</li>
-					</ul>
-				</div>
-			</div>
-
+   <div class="row">
+		<div class="small-12 medium-8 columns">
+			<p><?php include"includes/content/main-home.txt"; ?></p>
+		</div>
+		<div class="medium-4 columns">
+			<ul class="button-list">
+				<li class="btn">LinkedIn</li>
+				<li class="btn">GitHub</li>
+				<li class="btn">Facebook</li>
+				<li class="btn">Twitter</li>
+			</ul>
 		</div>
 	</div>
 
-	<!-- jQuery -->
-	<script
-		src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- scripts here -->
+	<script src="foundation/js/vendor/jquery.js"></script>
+	<script src="foundation/js/vendor/fastclick.js"></script>
+	<script src="foundation/js/foundation.min.js"></script>
+	<script> $(document).foundation(); </script>
 </body>
 </html>
-
