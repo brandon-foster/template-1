@@ -19,10 +19,9 @@
 		</div>
 		<div class="medium-4 columns">
 			<ul class="button-list">
-				<li class="btn">LinkedIn</li>
-				<li class="btn">GitHub</li>
-				<li class="btn">Facebook</li>
-				<li class="btn">Twitter</li>
+				<li><a href="#" class="button">LinkedIn</a></li>
+				<li><a href="#" class="button">GitHub</a></li>
+				<li><a href="#" class="button">Twitter</a></li>
 			</ul>
 		</div>
 	</div>
