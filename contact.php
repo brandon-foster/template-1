@@ -13,38 +13,39 @@
         
     <?php include"includes/nav-include.php"?>
         
-    <div id="submission-alert"><p></p></div>
-
-	<div id="form-main">
-		<div id="form-div">
-			<form class="form" id="form1">
-
-				<p class="name">
-					<input type="text"
-						class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
-						placeholder="Name" id="name" />
-				</p>
-
-				<p class="emailFrom">
-					<input type="text"
-						class="validate[required,custom[email-from]] feedback-input"
-						id="emailFrom" placeholder="Email" />
-				</p>
-
-				<p class="text">
-					<textarea class="validate[required,length[6,300]] feedback-input"
-						id="message" placeholder="Comment"></textarea>
-				</p>
-
-
-				<div class="submit">
-					<input type="submit" value="SEND" id="button-blue" />
-					<div class="ease"></div>
-				</div>
-			</form>
-		</div>
+    <div id="submission-alert">
+		<p></p>
 	</div>
 
+	<div class="row">
+		<div class="large-8 columns">
+			<div class="signup-panel">
+				<p class="welcome">Send a message</p>
+				<form>
+					<div class="row collapse">
+						<div class="small-12  columns">
+							<input id="name" type="text" placeholder="name">
+						</div>
+					</div>
+					<div class="row collapse">
+						<div class="small-12  columns">
+							<input id="emailFrom" type="text" placeholder="email address">
+						</div>
+					</div>
+					<div class="row collapse">
+						<div class="small-12 columns ">
+							<textarea id="message" class="feedback-input" type="text"
+								placeholder="Write a message"></textarea>
+						</div>
+					</div>
+				</form>
+				<a id="send" href="#" class="button">SEND</a>
+				<p>
+					Already have an account? <a href="#">Login here &raquo</a>
+				</p>
+			</div>
+		</div>
+	</div>
 
 	<!-- scripts here -->
 	<?php include 'includes/scripts-include.php';?>
