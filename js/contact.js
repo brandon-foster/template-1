@@ -16,7 +16,7 @@ var responseHandler = function(result) {
 $(document).ready(function() {
 	$('#name').focus();
 
-	$('input[type="submit"]').click(function(event) {
+	$('a#send').click(function(event) {
 
 		var name = $('#name').val();
 		$('#name').val('');
