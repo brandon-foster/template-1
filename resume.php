@@ -9,21 +9,27 @@
 <title>Resume &middot; Portfolio</title>
 </head>
 <body class="body-resume">
-        <?php include"includes/top-bar-include.php"?>
+    <?php include"includes/top-bar-include.php"?>
         
-        <?php include"includes/nav-include.php"?>
+    <?php include"includes/nav-include.php"?>
         
-        <div id="main">
 
+	<div class="row">
+		<div class="small-12 columns">
+			<a href="pdfs/resume.pdf" class="button" target="_blank">Download
+				Resume</a>
+		</div>
+	</div>
 
-			<a href="pdfs/resume.pdf" class="btn full-width" target="_blank">Download
-				Resume</a> <br />
-			<!-- 			<br /> -->
+	<div class="row">
+		<div class="small-12 columns">
 			<div class="iframe-resume">
 				<iframe src="pdfs/resume.pdf" frameborder="0" height="1150px"
 					width="100%">Sorry, your browser does not support iframes </iframe>
 			</div>
 		</div>
+
+	</div>
 
 	<!-- scripts here -->
 	<?php include 'includes/scripts-include.php';?>
