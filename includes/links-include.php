@@ -2,6 +2,6 @@
 <link href='http://fonts.googleapis.com/css?family=Nova+Mono|Montserrat|Lobster' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="foundation/css/normalize.css">
-<link rel="stylesheet" href="foundation/css/foundation.min.css">
+<link rel="stylesheet" href="foundation/css/foundation.css">
 
 <script src="foundation/js/vendor/modernizr.js"></script>
