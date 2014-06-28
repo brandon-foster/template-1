@@ -1,3 +1,5 @@
+<!-- see ../js/nav.js -->
+
 <nav class="top-bar" data-topbar>
 	<ul class="title-area">
 		<li class="name"><h1>
@@ -10,10 +12,10 @@
 	<section class="top-bar-section">
 		<!-- Right Nav Section -->
 		<ul class="right">
-			<li class="active"><a href="../index.php">Home</a></li>
-			<li><a href="../photos.php">Photos</a></li>
-			<li><a href="../resume.php">Resume</a></li>
-			<li><a href="../contact.php">Contact</a></li>
+			<li id="link-index"><a href="../index.php">Home</a></li>
+			<li id="link-photos"><a href="../photos.php">Photos</a></li>
+			<li id="link-resume"><a href="../resume.php">Resume</a></li>
+			<li id="link-contact"><a href="../contact.php">Contact</a></li>
 			<li class="has-dropdown"><a href="#">Right Button Dropdown</a>
 				<ul class="dropdown">
 					<li class="has-dropdown"><a href="#">First link in dropdown</a>
@@ -29,6 +31,5 @@
 					<li><a href="#">second links in dropdown</a></li>
 				</ul></li>
 		</ul>
-
 	</section>
 </nav>
