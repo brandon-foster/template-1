@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/resume.css" />
 <title>Resume &middot; Portfolio</title>
 </head>
-<body>
-	<div id="container">
+<body class="body-resume">
         <?php include"includes/top-bar-include.php"?>
         
         <?php include"includes/nav-include.php"?>
@@ -25,11 +24,9 @@
 					width="100%">Sorry, your browser does not support iframes </iframe>
 			</div>
 		</div>
-	</div>
 
-	<script src="foundation/js/vendor/jquery.js"></script>
-	<script src="foundation/js/vendor/fastclick.js"></script>
-	<script src="foundation/js/foundation.min.js"></script>
-	<script> $(document).foundation(); </script>
+	<!-- scripts here -->
+	<?php include 'includes/scripts-include.php';?>
+		
 </body>
 </html>

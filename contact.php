@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/contact.css" />
 <title>Contact &middot; Portfolio</title>
 </head>
-<body>
+<body class="body-contact">
 	<div id="container">
         <?php include"includes/top-bar-include.php"?>
         
@@ -53,10 +53,7 @@
 
 
 	<!-- scripts here -->
-	<script src="foundation/js/vendor/jquery.js"></script>
-	<script src="foundation/js/vendor/fastclick.js"></script>
-	<script src="foundation/js/foundation.min.js"></script>
-	<script> $(document).foundation(); </script>
+	<?php include 'includes/scripts-include.php';?>
 
 	<script type="text/javascript" src="js/contact.js""></script>
 

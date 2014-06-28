@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/photos.css" />
 <title>Photos &middot; Portfolio</title>
 </head>
-<body>
+<body class="body-photos">
 
 	<div id="container">
         <?php include"includes/top-bar-include.php"?>
@@ -21,10 +21,7 @@
 	</div>
 
 	<!-- scripts here -->
-	<script src="foundation/js/vendor/jquery.js"></script>
-	<script src="foundation/js/vendor/fastclick.js"></script>
-	<script src="foundation/js/foundation.min.js"></script>
-	<script> $(document).foundation(); </script>
+	<?php include 'includes/scripts-include.php';?>
 
 	<script type="text/javascript" src="js/jssor.core.js"></script>
 	<script type="text/javascript" src="js/jssor.utils.js"></script>

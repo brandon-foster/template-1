@@ -7,7 +7,7 @@
     <?php include"includes/links-include.php"?>
     <title>Portfolio</title>
 </head>
-<body>
+<body class="body-index">
 
         <?php include"includes/top-bar-include.php"?>
         
@@ -28,9 +28,6 @@
 	</div>
 
 	<!-- scripts here -->
-	<script src="foundation/js/vendor/jquery.js"></script>
-	<script src="foundation/js/vendor/fastclick.js"></script>
-	<script src="foundation/js/foundation.min.js"></script>
-	<script> $(document).foundation(); </script>
+	<?php include 'includes/scripts-include.php';?>
 </body>
 </html>
