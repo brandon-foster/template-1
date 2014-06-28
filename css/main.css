@@ -32,6 +32,11 @@ body {
 /* BUTTONS */
 .button-list {
 	list-style-type: none;
+	margin: 0;
+}
+
+.button-list a {
+	width: 100%;
 }
 
 /* END BUTTON */
@@ -39,7 +44,7 @@ body {
 /* FOUNDATION MODIFICATIONS */
 
 #main-nav-row {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 /******************************/
