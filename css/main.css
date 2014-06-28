@@ -25,28 +25,6 @@ body {
 	font-size: 22px;
 }
 
-.content-left-wrapper,.content-right-wrapper {
-	margin: 0;
-	padding: 0;
-}
-
-.content-left-wrapper {
-	/* 	background-color: #00ff00; */
-	float: left;
-	width: 70%;
-}
-
-.content-right-wrapper {
-	/* 	background-color: #0000ff; */
-	float: right;
-	width: 30%;
-}
-
-.content-left,.content-right {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 #links-section {
 	background-color: ff0000;
 }
