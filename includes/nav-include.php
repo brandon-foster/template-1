@@ -12,10 +12,10 @@
 		<section class="top-bar-section">
 			<!-- Right Nav Section -->
 			<ul class="right">
-				<li id="link-index"><a href="../index.php">Home</a></li>
-				<li id="link-photos"><a href="../photos.php">Photos</a></li>
-				<li id="link-resume"><a href="../resume.php">Resume</a></li>
-				<li id="link-contact"><a href="../contact.php">Contact</a></li>
+				<li id="link-index"><a href="index.php">Home</a></li>
+				<li id="link-photos"><a href="photos.php">Photos</a></li>
+				<li id="link-resume"><a href="resume.php">Resume</a></li>
+				<li id="link-contact"><a href="contact.php">Contact</a></li>
 				<li class="has-dropdown"><a href="#">Right Button Dropdown</a>
 					<ul class="dropdown">
 						<li class="has-dropdown"><a href="#">First link in dropdown</a>
