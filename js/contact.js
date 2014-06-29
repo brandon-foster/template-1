@@ -1,16 +1,35 @@
 var responseHandler = function(result) {
 
 	if (result.success) {
-		$('#main').hide();
+		// clear fields
+		$('#name').val('');
+		$('#emailFrom').val('');
+		$('#message').val('');
 
+		// show success alert
 		$('#submission-alert').removeClass('submission-failure');
 		$('#submission-alert').addClass('submission-success');
+
+		// focus on the name in case they want to send another message
+		$('#name').focus();
+
 	} else {
+		// show failure alert
 		$('#submission-alert').addClass('submission-failure');
+
+		if (result.reason === "email") {
+			// focus on the #emailFrom field to fix their email address
+			$('#emailFrom').focus();
+		} else if (result.reason === "message") {
+			// focus on the #message field to fix their email address
+			$('#message').focus();
+		}
+
 	}
 
-	$('#submission-alert').html("<p>" + result.result_message + "</p>");
+	$('#submission-alert').html("<p>" + result.result_text + "</p>");
 	$('#submission-alert').show();
+
 }
 
 $(document).ready(function() {
@@ -19,11 +38,8 @@ $(document).ready(function() {
 	$('a#send').click(function(event) {
 
 		var name = $('#name').val();
-		$('#name').val('');
 		var emailFrom = $('#emailFrom').val();
-		$('#emailFrom').val('');
 		var message = $('#message').val();
-		$('#message').val('');
 
 		// send POST request
 		$.ajax({

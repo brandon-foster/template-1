@@ -21,7 +21,14 @@ if (! isset ( $_POST ["submit"] )) {
 		if ($mailcheck == FALSE) {
 			echo json_encode ( array (
 					"success" => FALSE,
-					"result_message" => "Please fix your email address." 
+					"result_text" => "Please fix your email address.",
+					"reason" => "email" 
+			) );
+		} else if (! isset($_POST ["message"]) || trim($_POST["message"]) == "") {
+			echo json_encode ( array (
+					"success" => FALSE,
+					"result_text" => "Please enter a message.",
+					"reason" => "message" 
 			) );
 		} else {
 			$from = $_POST ["emailFrom"]; // sender email address
@@ -35,7 +42,7 @@ if (! isset ( $_POST ["submit"] )) {
 			
 			echo json_encode ( array (
 					"success" => TRUE,
-					"result_message" => "Thank you, your message has been sent." 
+					"result_text" => "Thank you, your message has been sent." 
 			) );
 		}
 	}
