@@ -61,7 +61,22 @@
 }
 
 /* modifications taken from http://codepen.io/rexkirby/pen/Fdnlz */
-textarea#message {
+#name {
+	background-image: url('http://rexkirby.com/kirbyandson/images/name.svg');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#emailFrom {
+	background-image:
+		url('http://rexkirby.com/kirbyandson/images/email.svg');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#message {
 	resize: vertical;
 	height: 150px;
 	background-image:
@@ -78,7 +93,7 @@ textarea#message {
 	font-size: 18px;
 	border-radius: 0px;
 	line-height: 22px;
-	background-color: #FBFBFB;
+	/* 	background-color: #FBFBFB; */
 	padding: 13px 13px 13px 54px;
 	margin-bottom: 10px;
 	width: 100%;

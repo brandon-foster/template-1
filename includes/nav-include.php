@@ -1,21 +1,21 @@
 <!-- see ../js/nav.js -->
-<div clas="row" id="main-nav-row">
+<div id="main-nav-row" class="contain-to-grid">
+
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
-			<li class="name"><h1>
-					<a href="../index.php">Template</a>
-				</h1></li>
+			<li class="name"></li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 		</ul>
 
 		<section class="top-bar-section">
 			<!-- Right Nav Section -->
-			<ul class="right">
+			<ul class="left">
 				<li id="link-index"><a href="index.php">Home</a></li>
 				<li id="link-photos"><a href="photos.php">Photos</a></li>
 				<li id="link-resume"><a href="resume.php">Resume</a></li>
 				<li id="link-contact"><a href="contact.php">Contact</a></li>
+				<!-- 
 				<li class="has-dropdown"><a href="#">Right Button Dropdown</a>
 					<ul class="dropdown">
 						<li class="has-dropdown"><a href="#">First link in dropdown</a>
@@ -30,6 +30,7 @@
 							</ul></li>
 						<li><a href="#">second links in dropdown</a></li>
 					</ul></li>
+				 -->
 			</ul>
 		</section>
 	</nav>

@@ -18,34 +18,35 @@
 	</div>
 
 	<div class="row">
-		<div class="large-8 columns">
+		<div class="large-8 small-12 columns large-offset-2">
 			<div class="signup-panel">
-				<p class="welcome">Send a message</p>
 				<form>
 					<div class="row collapse">
 						<div class="small-12  columns">
-							<input id="name" type="text" placeholder="name">
+							<input id="name" class="feedback-input" type="text"
+								placeholder="name">
 						</div>
 					</div>
 					<div class="row collapse">
 						<div class="small-12  columns">
-							<input id="emailFrom" type="text" placeholder="email address">
+							<input id="emailFrom" class="feedback-input" type="text"
+								placeholder="email address">
 						</div>
 					</div>
 					<div class="row collapse">
 						<div class="small-12 columns ">
 							<textarea id="message" class="feedback-input" type="text"
-								placeholder="Write a message"></textarea>
+								placeholder="message"></textarea>
 						</div>
 					</div>
 				</form>
 				<a id="send" href="#" class="button">SEND</a>
-				<p>
-					Already have an account? <a href="#">Login here &raquo</a>
-				</p>
 			</div>
 		</div>
 	</div>
+
+	<div class="row">&nbsp;</div>
+	<div class="row">&nbsp;</div>
 
 	<!-- scripts here -->
 	<?php include 'includes/scripts-include.php';?>
