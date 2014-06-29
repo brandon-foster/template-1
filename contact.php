@@ -12,13 +12,18 @@
     <?php include"includes/top-bar-include.php"?>
         
     <?php include"includes/nav-include.php"?>
-        
-    <div id="submission-alert">
-		<p></p>
+
+    <div class="row">
+		<div class="small-12 large-8 columns large-offset-2">
+			<div id="submission-alert">
+				<p></p>
+			</div>
+		</div>
 	</div>
 
+
 	<div class="row">
-		<div class="large-8 small-12 columns large-offset-2">
+		<div class="small-12 large-8 columns large-offset-2">
 			<div class="signup-panel">
 				<form>
 					<div class="row collapse">
