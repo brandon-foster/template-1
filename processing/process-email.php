@@ -26,7 +26,7 @@ if (! isset ( $_POST ["submit"] )) {
 		} else {
 			$from = $_POST ["emailFrom"]; // sender email address
 			$name = $_POST ["name"];
-			$subject = "Message from {$name}, a visitor to your web site";
+			$subject = "Message from {$name}, a visitor from your site";
 			$message = $_POST ["message"];
 			// message lines should not exceed 70 characters (PHP rule), so wrap it
 			$message = wordwrap ( $message, 70 );
