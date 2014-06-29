@@ -1,7 +1,7 @@
 /* keeping anyway */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-/* hidden until message is submitted */
+/* alert boxes (hidden until message is submitted) */
 #submission-alert {
 	display: none;
 	width: 60%;
@@ -57,7 +57,7 @@
 }
 
 .signup-panel .button {
-	margin-left: 35%;
+	width: 100%;
 }
 
 /* modifications taken from http://codepen.io/rexkirby/pen/Fdnlz */
