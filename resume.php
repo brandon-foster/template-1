@@ -28,8 +28,10 @@
 					width="100%">Sorry, your browser does not support iframes </iframe>
 			</div>
 		</div>
-
 	</div>
+
+	<div class="row">&nbsp;</div>
+	<div class="row">&nbsp;</div>
 
 	<!-- scripts here -->
 	<?php include 'includes/scripts-include.php';?>

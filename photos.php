@@ -72,6 +72,9 @@
 		</div>
 	</div>
 
+	<div class="row">&nbsp;</div>
+	<div class="row">&nbsp;</div>
+
 	<!-- scripts here -->
 	<?php include 'includes/scripts-include.php';?>
 
