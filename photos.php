@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php include"includes/links-include.php"?>
-    <link rel="stylesheet" type="text/css" href="css/photos.css" />
+	<link href="css/gallery.css" rel="stylesheet" type="text/css">
 <title>Photos &middot; Portfolio</title>
 </head>
 <body class="body-photos">
@@ -14,77 +14,171 @@
 
     <?php include"includes/nav-include.php"?>
 
-	<!-- Requires Foundation 4 | visit http://foundation.zurb.com to download -->
+<div class="wrapper">
+		<div class="container">
+			<h1>Responsive Image Grids Using CSS</h1>
+			<ul class="grid-nav">
+				<li><a href="#" data-id="two-columns" class="active">2 Columns</a></li>
+				<li><a href="#" data-id="three-columns">3 Columns</a></li>
+				<li><a href="#" data-id="four-columns">4 Columns</a></li>
+			</ul>
 
-	<!-- Masonry Container -->
-	<div class="row">
-		<div class="large-12 columns">
-			<div id="masonryContainer">
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x300&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x600&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x700&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x400&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x200&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x300&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x600&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x700&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x400&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x200&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x200&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x300&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x600&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x700&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x400&text=Item">
-				</div>
-				<div class="masonry-brick">
-					<img src="http://placehold.it/500x200&text=Item">
-				</div>
+			<div id="two-columns" class="grid-container" style="display: block;">
+				<ul class="rig columns-2">
+					<li><img src="img/gallery/pri_001.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_002.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_003.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_004.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+				</ul>
 			</div>
-		</div>
-	</div>
+			<!--/#two-columns-->
 
-	<div class="row">&nbsp;</div>
-	<div class="row">&nbsp;</div>
+			<div id="three-columns" class="grid-container">
+				<ul class="rig columns-3">
+					<li><img src="img/gallery/pri_001.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_002.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_003.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_004.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_005.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_006.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_007.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_008.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_009.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+				</ul>
+			</div>
+			<!--/#three-columns-->
+
+			<div id="four-columns" class="grid-container">
+				<ul class="rig columns-4">
+					<li><img src="img/gallery/pri_001.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_002.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_003.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_004.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_005.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_006.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_007.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_008.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_009.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_010.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_011.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/pri_012.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+				</ul>
+			</div>
+			<!--/#four-columns-->
+
+			<p class="centered">
+				Demo by <a href="http://alijafarian.com">Ali Jafarian</a>
+			</p>
+		</div>
+		<!--/.container-->
+	</div>
+	<!--/.wrapper-->
 
 	<!-- scripts here -->
 	<?php include 'includes/scripts-include.php';?>
 
-	<script type="text/javascript" src="js/jssor.core.js"></script>
-	<script type="text/javascript" src="js/jssor.utils.js"></script>
-	<script type="text/javascript" src="js/jssor.slider.js"></script>
-	<script type="text/javascript" src="js/jssor-slider-activate.js"></script>
-
 	<script type="text/javascript" src="masonry/masonry.pkgd.min.js"></script>
-	<script type="text/javascript" src="js/photos.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
 
 </body>
 </html>
