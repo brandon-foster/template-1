@@ -25,6 +25,12 @@
 
 			<div id="two-columns" class="grid-container" style="display: block;">
 				<ul class="rig columns-2">
+
+					<li><img src="img/gallery/cs-lounge.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
 					<li><img src="img/gallery/pri_001.jpg" />
 						<h3>Image Title</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
@@ -56,6 +62,11 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</li>
+					<li><img src="img/gallery/cs-lounge.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
 					<li><img src="img/gallery/pri_002.jpg" />
 						<h3>Image Title</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
@@ -82,6 +93,11 @@
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</li>
 					<li><img src="img/gallery/pri_007.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/cs-lounge.jpg" />
 						<h3>Image Title</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -117,12 +133,22 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</li>
+					<li><img src="img/gallery/cs-lounge.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
 					<li><img src="img/gallery/pri_004.jpg" />
 						<h3>Image Title</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</li>
 					<li><img src="img/gallery/pri_005.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/cs-lounge.jpg" />
 						<h3>Image Title</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -153,6 +179,11 @@
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</li>
 					<li><img src="img/gallery/pri_011.jpg" />
+						<h3>Image Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li><img src="img/gallery/cs-lounge.jpg" />
 						<h3>Image Title</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
