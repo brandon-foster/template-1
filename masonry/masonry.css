@@ -1,0 +1,45 @@
+.masonry-brick {
+	margin: 10px auto;
+	float: left;
+	background-color: #c0c0c0;
+	text-align: center;
+}
+
+@media ( max-width : 640px) {
+	.masonry-brick {
+		width: 100%;
+	}
+}
+
+@media ( min-width : 641px) and (max-width: 840px) {
+	.masonry-brick {
+		width: 220px;
+	}
+}
+
+@media ( min-width : 841px) {
+	.masonry-brick {
+		width: 220px;
+	}
+}
+
+.masonry-brick h3,.masonry-brick p {
+	background-color: rgba(0, 0, 0, 0.75);
+	margin: 0;
+	color: #eee;
+	padding: 4px 8px;
+}
+
+.masonry-brick h3 {
+	text-align: left;
+}
+
+#masonryContainer {
+	width: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3 span.small {
+	font-size: 16px;
+}
