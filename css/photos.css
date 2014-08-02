@@ -12,14 +12,13 @@ body {
 	font-weight: 200;
 }
 
-h1 {
+/* h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 4em;
 	font-weight: 400;
 	margin: 0 0 20px;
 	text-align: center;
-	text-shadow: 1px 1px 0 #fff, 2px 2px 0 #bbb;
-}
+} */
 
 hr {
 	border-top: 1px solid #ccc;
