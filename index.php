@@ -14,10 +14,17 @@
         <?php include"includes/nav-include.php"?>
         
    <div class="row">
+   		<div class="small-12 columns show-for-small-only">
+			<ul class="button-list">
+				<li><a href="#" class="button">LinkedIn</a></li>
+				<li><a href="#" class="button">GitHub</a></li>
+				<li><a href="#" class="button">Twitter</a></li>
+			</ul>
+		</div>
 		<div class="small-12 medium-8 columns">
 			<p><?php include"includes/content/main-home.txt"; ?></p>
 		</div>
-		<div class="medium-4 columns">
+		<div class="medium-4 columns hide-for-small-only">
 			<ul class="button-list">
 				<li><a href="#" class="button">LinkedIn</a></li>
 				<li><a href="#" class="button">GitHub</a></li>
