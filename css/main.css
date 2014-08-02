@@ -37,6 +37,7 @@ body {
 
 .button-list a {
 	width: 100%;
+	margin-bottom: 4px;
 }
 
 /* END BUTTON */
