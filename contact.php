@@ -34,13 +34,13 @@
 					</div>
 					<div class="row collapse">
 						<div class="small-12  columns">
-							<input id="emailFrom" class="feedback-input" type="text"
+							<span class="mandatory-field">*</span><input id="emailFrom" class="feedback-input" type="text"
 								placeholder="email address">
 						</div>
 					</div>
 					<div class="row collapse">
 						<div class="small-12 columns ">
-							<textarea id="message" class="feedback-input" type="text"
+							<span class="mandatory-field">*</span><textarea id="message" class="feedback-input" type="text"
 								placeholder="message"></textarea>
 						</div>
 					</div>
