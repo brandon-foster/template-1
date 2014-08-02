@@ -1,51 +1,49 @@
 /*******Google Fonts*****/
 h1.lobster-font {
-	font-family: 'Lobster', cursive;
-	font-size: 68px;
-	padding-top: 10px;
-	color: #383838;
+    font-family: 'Lobster', cursive;
+    font-size: 68px;
+    padding-top: 10px;
+    color: #383838;
 }
 
 h2.lobster-font {
-	font-family: 'Lobster', cursive;
-	font-size: 48px;
-	padding-top: 10px;
-	color: #383838;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    padding-top: 10px;
+    color: #383838;
 }
 
 /***********************/
 body {
-	/* 	background-image: url('../img/background/paper_3.png'); */
-	background-color: #fff;
-	font-family: proxima-nova, sans-serif;
-	font-size: 22px;
-	color: #3b3b3b;
-	margin: 0;
-	padding: 0;
-	font-size: 22px;
+    background-image: url('img/background/paper_3.png');
+    font-family: proxima-nova, sans-serif;
+    font-size: 22px;
+    color: #3b3b3b;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
 
 #links-section {
-	background-color: ff0000;
+    background-color: ff0000;
 }
 
 /* BUTTONS */
 .button-list {
-	list-style-type: none;
-	margin: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
 .button-list a {
-	width: 100%;
-	margin-bottom: 4px;
+    width: 100%;
+    margin-bottom: 4px;
 }
 
 /* END BUTTON */
 
 /* FOUNDATION MODIFICATIONS */
-
 #main-nav-row {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /******************************/
