@@ -1,5 +1,5 @@
 <!-- see ../js/nav.js -->
-<div id="main-nav-row" class="contain-to-grid">
+<div id="main-nav-row" class="contain-to-grid sticky">
 
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
